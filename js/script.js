@@ -39,9 +39,8 @@ $(document).ready(() => {
 
   let typed = new Typed(".typed", {
     strings: [
-      "IT Specialist",
+      "DevOps/Cloud Engineer",
       "Application Developer",
-      "Design and Photo Enthusiast",
       "Lifetime Student"
     ],
     typeSpeed: 70,

@@ -16,7 +16,6 @@
                     <p><?= $skill['description'] ?></p>
                 </div>
             </div>
-
             <?php endforeach; ?>
 
 

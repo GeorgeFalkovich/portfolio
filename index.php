@@ -62,7 +62,7 @@ $projects = $assetsProvider->getProjects();
                     <a class="nav-link" href="#skills ">Skills</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#portfolio">Projects</a>
+                    <a class="nav-link" href="#portfolio">Certificates</a>
                 </li>
             </ul>
         </div>
@@ -74,10 +74,10 @@ $projects = $assetsProvider->getProjects();
     <section id="about" class="section">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <img src="./img/about.png" alt="" class="about-img" />
                 </div>
-                <div class="col-md-6 text-center mt-5 p-2">
+                <div class="col-md-8 text-center mt-5 p-2">
                     <h1 class="great-vibes-font text-center">George Falkovich</h1>
 
                     <p class="text-muted mt-3 p-3">
@@ -99,7 +99,7 @@ $projects = $assetsProvider->getProjects();
 
                     <div class="mt-3">
                         <strong>
-                            <h3><i class="fa fa-phone mx-2"></i>+972 546-358-158</h3>
+                            <h3><i class="fa fa-phone mx-2"></i>+972 546-358-158 ISR</h3>
                             <h4><i class="fas fa-envelope mx-2 p-2"></i>gfalk85@gmail.com</h4>
                         </strong>
                     </div>
@@ -125,14 +125,7 @@ $projects = $assetsProvider->getProjects();
         </div>
     </section>
     <!-- end of contact section -->
-
-<?php require_once ('projects.php') ?>
-
-
-
-
-
-    <div class="outro text-center p-3">Currently working on a big full-stack project - Social Network for Israeli Photographers using MERN stack!</div>
+    <?php require_once ('projects.php') ?>
 <!--footer-->
 
 <?php require_once ('footer.php')?>

@@ -4,13 +4,16 @@
     <div class="container">
         <div class="row">
             <div class="heading">
-                <h2 class="great-vibes-font">PORTFOLIO</h2>
+                <h2 class="great-vibes-font">CERTIFICATES</h2>
             </div>
             <div class="filter">
                 <ul id="filters">
                     <li><a href="#" data-filter="*" class="current btn btn-dark">ALL</a></li>
-                    <li><a href="#" data-filter=".web" class="btn btn-dark">WEB</a></li>
-                    <li><a href="#" data-filter=".android" class="btn btn-dark">ANDROID</a></li>
+                    <li><a href="#" data-filter=".GCP" class="btn btn-dark">GCP</a></li>
+                    <li><a href="#" data-filter=".AWS" class="btn btn-dark">AWS</a></li>
+                    <li><a href="#" data-filter=".FINOPS" class="btn btn-dark">FinOps</a></li>
+                    <li><a href="#" data-filter=".CLOUDFLARE" class="btn btn-dark">Cloudflare</a></li>
+                    <li><a href="#" data-filter=".MICROSOFT" class="btn btn-dark">MICROSOFT</a></li>
                 </ul>
             </div>
             <div class="itemsContainer ">

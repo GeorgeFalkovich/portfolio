@@ -2,7 +2,7 @@
 <footer>
     <div class="portfolio-section">
         <div class="col text-center bg-dark py-2 text-light">
-            <p>&copy; Copyright George Falkovich 2020</p>
+            <p>&copy; Copyright George Falkovich 2024</p>
         </div>
     </div>
 </footer>

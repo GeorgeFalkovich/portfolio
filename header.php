@@ -6,7 +6,7 @@
  * Time: 16:06
  */
 
-require_once ('databse.php');
+require_once ('database.php');
 
 ?>
 
@@ -41,12 +41,11 @@ require_once ('databse.php');
 
         gtag('config', 'UA-152555291-1');
     </script>
-
     <script
         src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"
     ></script>
-    <title>George Falkovich</title>
+    <title>Portfolio</title>
 </head>
 <body>
