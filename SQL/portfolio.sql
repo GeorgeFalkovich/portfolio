@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.36, for macos14 (arm64)
 --
--- Host: 34.135.41.103    Database: portfolio
+-- Host: 34.67.12.172    Database: portfolio
 -- ------------------------------------------------------
 -- Server version	8.0.39-0ubuntu0.20.04.1
 
@@ -18,9 +18,6 @@
 --
 -- Table structure for table `about`
 --
-
-CREATE DATABASE IF NOT EXISTS portfolio;
-USE portfolio;
 
 DROP TABLE IF EXISTS `about`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -92,7 +89,7 @@ CREATE TABLE `projects` (
 
 LOCK TABLES `projects` WRITE;
 /*!40000 ALTER TABLE `projects` DISABLE KEYS */;
-INSERT INTO `projects` VALUES (1,'img/vt.jpg','Build with \r\nPHP/MySQL/ffmpeg/JS/\r\njQuery/AJAX/JSON/Html/Css','/vt','YouTube clone from scratch','web'),(2,'img/maos.jpg','E-commerce build with ReactJS. Fully functional online store.','https://maos.netlify.com/','MAOS','web'),(3,'img/carrental.jpg','Landing page for Car Rental Company.\r\nPHP/Mysql/Ajax/Json/JS','/carrental','Tyco Motors','web'),(4,'img/pizza.jpg','Implementing a lot of UI components. Fragments, recyclerviews etc...','https://play.google.com/store/apps/details?id=com.falk.george.pizzapagazz','Android App (Java) \"Pizza Pagazzz','android'),(5,'img/movies.jpg','Implementing RestAPI and SQL to store it with local SQLite database.','https://play.google.com/store/apps/details?id=com.georgefalk.moviesnew2018','Android App (Java) \"Movie Library\"','android'),(6,'img/jf.png','Build with ReactJS. Local hair-design salon. Web design & photography.','http://www.julia-falkovich.co.il','www.julia-falkovich.co.il','web');
+INSERT INTO `projects` VALUES (1,'img/gcp_arch.png','Professional Cloud Architects enable organizations to leverage Google Cloud technologies.',' ','Google Cloud Professional Architect','GCP'),(2,'img/gcp_data.png','A Professional Data Engineer makes data usable and valuable for others by collecting, transforming, and publishing data.',' ','Google Cloud Professional Data Engineer\n','GCP'),(3,'img/gcp_developer.png','Professional Cloud Developer builds and deploys scalable, secure, and highly available applications by using Google-recommended tools and best practices.','','Google Cloud Professional Cloud Developer','GCP'),(4,'img/gcp_devops.png','Professional Cloud DevOps Engineers implement processes throughout the systems development lifecycle using Google-recommended methodologies and tools.','','Google Cloud Professional Cloud DevOps Engineer','GCP'),(5,'img/gcp_network.png','A Professional Cloud Network Engineer is responsible for the design, implementation, and management of Google Cloud network infrastructure.',' ','Google Cloud Professional Cloud Network Engineer','GCP'),(6,'img/gcp_workspace.png','Professional Google Workspace Administrator transforms business objectives into tangible Google Workspace configurations, policies, and security practices as they relate to users, content, and integrations.','','Google Cloud Professional Workspace Administrator','GCP'),(7,'img/aws_arch.png','Ability to design a hybrid architecture using key AWS technologies (e.g., VPN, AWS Direct Connect) as well as a continuous integration and deployment process',' ','AWS Certified Solutions Architect - Professional\n','AWS'),(8,'img/cloudflare.png','Implementation, best practices, and supporting Cloudflare.',' ','Accredited Configuration Engineer','CLOUDFLARE'),(9,'img/finops.png','Knowledge in a large variety of cloud, finance, and technology roles to implement FinOps best practices',' ','FinOps Certified Practitioner\n','FINOPS'),(10,'img/mta.png','Networking Fundamentals',' ','Microsoft 98-366','MICROSOFT');
 /*!40000 ALTER TABLE `projects` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -131,4 +128,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2024-10-31 11:55:23
+-- Dump completed on 2024-11-03 20:54:04

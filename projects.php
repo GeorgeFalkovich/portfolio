@@ -11,8 +11,8 @@
                     <li><a href="#" data-filter="*" class="current btn btn-dark">ALL</a></li>
                     <li><a href="#" data-filter=".GCP" class="btn btn-dark">GCP</a></li>
                     <li><a href="#" data-filter=".AWS" class="btn btn-dark">AWS</a></li>
-                    <li><a href="#" data-filter=".FINOPS" class="btn btn-dark">FinOps</a></li>
-                    <li><a href="#" data-filter=".CLOUDFLARE" class="btn btn-dark">Cloudflare</a></li>
+                    <li><a href="#" data-filter=".FINOPS" class="btn btn-dark">FINOPS</a></li>
+                    <li><a href="#" data-filter=".CLOUDFLARE" class="btn btn-dark">CLOUDFLARE</a></li>
                     <li><a href="#" data-filter=".MICROSOFT" class="btn btn-dark">MICROSOFT</a></li>
                 </ul>
             </div>
