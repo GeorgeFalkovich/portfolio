@@ -11,5 +11,10 @@ pipeline {
                 sh 'cat hello.txt'
             }
         }
+        stage('Sync files to /var/www/html') {
+            steps {
+                sh 'rsync -avz ${WORKSPACE}/ /var/www/html/'
+            }
+        }
     }
 }
