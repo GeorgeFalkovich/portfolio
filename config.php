@@ -6,7 +6,7 @@ $DB_NAME=getenv('DB_NAME');
 $DB_USER=getenv('DB_USER');
 $DB_PASSWORD=getenv('DB_PASSWORD');
 
-define("DB_HOST", "db host");
-define("DB_NAME", "db name");
-define("DB_USER", "db username");
-define("DB_PASSWORD", "db password");
+define("DB_HOST", $DB_HOST);
+define("DB_NAME", $DB_NAME);
+define("DB_USER", $DB_USER);
+define("DB_PASSWORD", $DB_PASSWORD);
