@@ -1,5 +1,6 @@
 <?php
 
+// define env in /etc/apache2/envvars
 
 $DB_HOST=getenv('DB_HOST');
 $DB_NAME=getenv('DB_NAME');
